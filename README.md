@@ -1,4 +1,16 @@
-Here’s the complete **`README.md`** file in Markdown format:
+This repository provides a CLI tool (kube.sh) to automate the creation of Kubernetes users with access restricted to specified namespaces.
+
+Key capabilities:
+
+Automatically generates keys, CSR, and signed certificates.
+
+Creates and binds roles based on access level (read or write) per namespace.
+
+Forces read-only access for any namespace that starts with prod.
+
+Outputs a secure kubeconfig file for the user to interact with the cluster.
+
+Designed for platform and DevOps engineers who need to onboard users with controlled access in multi-tenant Kubernetes environments.
 
 ---
 
